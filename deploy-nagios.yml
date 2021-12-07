@@ -1,0 +1,10 @@
+---
+- name: Deploy nagios
+  hosts: nagios
+  become: true
+
+  tasks:
+    - name: Import nagios.install role
+      import_role:
+        name: nagios.install
+
