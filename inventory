@@ -11,7 +11,7 @@ student09-node06.training.edgecloud.com
 student09-node07.training.edgecloud.com
 student09-node08.training.edgecloud.com
 
-[lb]
+[nagios]
 student09-node01.training.edgecloud.com
 student09-node05.training.edgecloud.com
 
