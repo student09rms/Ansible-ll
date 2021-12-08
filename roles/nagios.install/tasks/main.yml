@@ -9,9 +9,9 @@
     name: nagios
     state: present
 
-- name chage admin password
+- name: change admin password
   command:
-    cmd: /usr/bin/htpasswd -b /etc/nagios/passwd nagiosadmin {{ nagiosadmin_password }}
+    cmd: /usr/bin/htpasswd -b /etc/nagios/passwd nagiosadmin {{ nagiosadmin_password }} 
 
 - name: Start services
   service:
