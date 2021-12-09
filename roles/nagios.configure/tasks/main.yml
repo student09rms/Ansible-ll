@@ -1,0 +1,17 @@
+---
+- name: nagios template
+  template:
+    src: templates/nagios.cfg.j2
+    dest: /etc/nagios/nagios.cfg
+
+- name: Creat Nagios servers folder
+  file:
+    path: /etc/nagios/servers
+    state: directory
+
+- name: Template object file
+  template:
+    src: templates/object.cfg.j2
+    dest: /etc/nagios/servers/{{ item }}.cfg
+  with_items" "{{ groups['all'] }}'
+  notify: [ 'Bounce nagios' ]

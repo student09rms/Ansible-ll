@@ -1,0 +1,5 @@
+- name: Bounce nagios
+  service:
+    name: nagios
+    state: restarted
+

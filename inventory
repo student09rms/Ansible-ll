@@ -1,27 +1,26 @@
 
 [nyc]
-#student09-node01.training.edgecloud.com
+student09-node01.training.edgecloud.com
 student09-node02.training.edgecloud.com
-#student09-node03.training.edgecloud.com
-#student09-node04.training.edgecloud.com
+student09-node03.training.edgecloud.com
+student09-node04.training.edgecloud.com
 
 [sfo]
-#student09-node05.training.edgecloud.com
-#student09-node06.training.edgecloud.com
-#student09-node07.training.edgecloud.com
-#student09-node08.training.edgecloud.com
+student09-node05.training.edgecloud.com
+student09-node06.training.edgecloud.com
+student09-node07.training.edgecloud.com
+student09-node08.training.edgecloud.com
 
 [nagios]
-#student09-node01.training.edgecloud.com
-student09-node02.training.edgecloud.com
-#student09-node05.training.edgecloud.com
+student09-node01.training.edgecloud.com
+student09-node05.training.edgecloud.com
 
 [db]
-#student09-node02.training.edgecloud.com
-#student09-node06.training.edgecloud.com
+student09-node02.training.edgecloud.com
+student09-node06.training.edgecloud.com
 
 [web]
-#student09-node03.training.edgecloud.com
-#student09-node04.training.edgecloud.com
-#student09-node07.training.edgecloud.com
-#student09-node08.training.edgecloud.com
+student09-node03.training.edgecloud.com
+student09-node04.training.edgecloud.com
+student09-node07.training.edgecloud.com
+student09-node08.training.edgecloud.com
